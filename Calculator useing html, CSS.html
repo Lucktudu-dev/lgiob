@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claculator</title>
+  <style>
+    h1{
+  color: blue;
+  text-align: center;
+}
+
+h1:hover{
+  text-decoration: underline;
+  color: pink;
+  cursor: none;
+}
+
+
+.calculator {
+  width: 290px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+input[type="text"] {
+  width: 265px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.button-1 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
+.button-1:hover{
+  color:Violet;
+}
+
+
+.button-2 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.button-2:hover{
+  color:Indigo;
+}
+
+
+.button-3 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
+.button-3:hover{
+  color: Blue
+}
+
+
+.button-4 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 71px;
+  
+}
+
+
+.button-4:hover{
+  color: Green
+}
+
+
+.button-5 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
+.button-5:hover{
+  color: Yellow
+}
+
+
+.button-6 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
+.button-6:hover{
+  color: Orange
+}
+
+
+
+.button-7 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.button-7:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-8 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 71px;
+}
+
+
+.button-8:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-9 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
+.button-9:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-0 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.button-0:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-11 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+
+.button-11:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+.button-22 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 71px;
+}
+
+
+.button-22:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-33 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 72px;
+}
+
+
+.button-33:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-44 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 57px;
+}
+
+
+.button-44:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+.button-55 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 56px;
+  margin-left: 59px;
+  
+}
+
+
+.button-55:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+
+.button-66 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.button-66:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+
+.button-77 {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left:58px;
+}
+
+
+.button-77:hover{
+  color: rgb(226, 177, 15);
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <h1> You cracked my login site</h1>
+
+
+  <h1>
+    .Wellcome to Abinash's Claculator.
+  </h1>
+
+  <div class="calculator">
+    <input type="text" id="display" disabled>
+    <div>
+      
+      
+      <button onclick="clearDisplay()" class="button-55">C</button>
+      <button onclick="addToDisplay('+')" class="button-4">+</button>
+      
+      
+      
+  </div>
+    <div>
+        <button onclick="addToDisplay('1')" class="button-1">1</button>
+        <button onclick="addToDisplay('2')" class="button-2">2</button>
+        <button onclick="addToDisplay('3')" class="button-3">3</button>
+        <button onclick="addToDisplay('-')" class="button-8">-</button>
+    </div>
+    <div>
+        <button onclick="addToDisplay('4')" class="button-5">4</button>
+        <button onclick="addToDisplay('5')" class="button-6">5</button>
+        <button onclick="addToDisplay('6')" class="button-7">6</button>
+        <button onclick="addToDisplay('*')" class="button-22">x</button>
+    </div>
+    <div>
+        <button onclick="addToDisplay('7')" class="button-9">7</button>
+        <button onclick="addToDisplay('8')" class="button-0">8</button>
+        <button onclick="addToDisplay('9')" class="button-11">9</button>
+        <button onclick="addToDisplay('/')" class="button-77">/</button>
+    </div>
+    <div>
+        <button onclick="addToDisplay('0')" class="button-44">0</button>
+        <button onclick="addToDisplay('.')" class="button-33">.</button>
+        
+        <button onclick="calculate()" class="button-66">=</button>
+        
+        
+    </div>
+</div>
+
+<script>
+    // Function to add characters to the display
+    function addToDisplay(value) {
+        document.getElementById('display').value += value;
+    }
+
+    // Function to calculate the result
+    function calculate() {
+        try {
+            const expression = document.getElementById('display').value;
+            const result = eval(expression);
+            document.getElementById('display').value = result;
+        } catch (error) {
+            document.getElementById('display').value = 'Error';
+        }
+    }
+
+    // Function to clear the display
+    function clearDisplay() {
+        document.getElementById('display').value = '';
+    }
+    
+    </script>
+
+  
+</body>
+
+</html>
